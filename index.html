@@ -1,34 +1,38 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>Homework</title>
-  </head>
-  <body>
-      <div class="heading">
+</head>
+
+<body>
+    <div class="heading">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-        
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </div>
 
-    <h2 class="text-center">Exercise 1</h2>
+    <h2 class="text-center mt-3">Exercise 1</h2>
     <p class="text-center">Recreate the table without removing any DOM elements</p>
     <div id="first-container" class="container">
         <div class="row">
@@ -39,7 +43,18 @@
                 Second column
             </div>
             <div class="col-4 column-3">
-                <div class="row d-flex third-rows">
+                <div class="row d-flex  w-100 flex-column">
+                    <div class=" flex-fill part-1">
+                        <p>Third Column Part 1</p>
+                    </div>
+                    <div class=" flex-fill part-2">
+                        <p>Third Column Part 2</p>
+                    </div>
+                    <div class=" flex-fill part-3">
+                        <p>Third Column Part 3</p>
+                    </div>
+                </div>
+                <!-- <div class="row d-flex third-rows">
                     <div class="col-12 d-flex justify-content-center">
                         col 1
                     </div>
@@ -53,18 +68,253 @@
                     <div class="col-12">
                         col 3
                     </div>
-                </div>
+                </div> -->
             </div>
-            
+
         </div>
     </div>
-    
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-    
+
+    <div class="second-section">
+        <h2 class="text-center mt-4">Exercise 2</h2>
+        <p class="text-center">Recreate the table without removing any DOM elements</p>
+    </div>
+    <div class="container mb-3">
+
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <h4 class="card-head py-2">Free</h4>
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><strong>€
+                                0</strong>/mo</h5>
+                        <p class="card-text text-center">20 users included <br>
+                            10GB of storage <br>
+                            Priority email support <br>
+                            Help center access.</p>
+                        <a href="#" class="btn btn-outline-primary btn-block">Sign up for free</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <h4 class="card-head py-2">Pro</h4>
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><strong>€
+                                15</strong>/mo</h5>
+                        <p class="card-text text-center">20 users included <br>
+                            10GB of storage <br>
+                            Priority email support <br>
+                            Help center access.</p>
+                        <a href="#" class="btn btn-primary btn-block">Get started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <h4 class="card-head py-2">Enterprise</h4>
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><strong>€
+                                29</strong>/mo</h5>
+                        <p class="card-text text-center">20 users included <br>
+                            10GB of storage <br>
+                            Priority email support <br>
+                            Help center access.</p>
+                        <a href="#" class="btn btn-primary btn-block">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="third-section ">
+        <h2 class="text-center mt-4">Exercise 3</h2>
+        <p class="text-center">Recreate the table without removing any DOM elements</p>
+        <div class="container bg-light">
+            <div class="row mb-4">
+                <div class="col-4 h-100">
+                    <div class="card">
+                        <img src="https://picsum.photos/id/237/100/100" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="view-btn">
+                                    <span class="view">View</span>
+                                    <span>edit</span>
+                                </div>
+                                <span>9 min</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 h-100">
+                    <div class="card">
+                        <img src="https://picsum.photos/id/237/100/100" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="view-btn">
+                                    <span class="view">View</span>
+                                    <span>edit</span>
+                                </div>
+                                <span>9 min</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 h-100">
+                    <div class="card">
+                        <img src="https://picsum.photos/id/237/100/100" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="view-btn">
+                                    <span class="view">View</span>
+                                    <span>edit</span>
+                                </div>
+                                <span>9 min</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-4 h-100">
+                    <div class="card">
+                        <img src="https://picsum.photos/id/237/100/100" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="view-btn">
+                                    <span class="view">View</span>
+                                    <span>edit</span>
+                                </div>
+                                <span>9 min</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 h-100">
+                    <div class="card">
+                        <img src="https://picsum.photos/id/237/100/100" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="view-btn">
+                                    <span class="view">View</span>
+                                    <span>edit</span>
+                                </div>
+                                <span>9 min</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 h-100">
+                    <div class="card">
+                        <img src="https://picsum.photos/id/237/100/100" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="view-btn">
+                                    <span class="view">View</span>
+                                    <span>edit</span>
+                                </div>
+                                <span>9 min</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-4 h-100">
+                    <div class="card">
+                        <img src="https://picsum.photos/id/237/100/100" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="view-btn">
+                                    <span class="view">View</span>
+                                    <span>edit</span>
+                                </div>
+                                <span>9 min</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 h-100">
+                    <div class="card">
+                        <img src="https://picsum.photos/id/237/100/100" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="view-btn">
+                                    <span class="view">View</span>
+                                    <span>edit</span>
+                                </div>
+                                <span>9 min</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 h-100">
+                    <div class="card">
+                        <img src="https://picsum.photos/id/237/100/100" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="view-btn">
+                                    <span class="view">View</span>
+                                    <span>edit</span>
+                                </div>
+                                <span>9 min</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
 <!-- <div class="row d-flex flex-column align-items-stretch">
     <div class="col-4 third-column-1">col 3</div>
