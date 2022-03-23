@@ -1,0 +1,43 @@
+
+.navbar {
+    padding-left: 150px;
+    background-color: #007BFF;
+}
+
+.column-1 {
+    height: 400px;
+    background-color: #6BB56B;
+    
+}
+
+.column-2 {
+    background-color: #299BFF
+    ;
+}
+#first-container {
+    border:1px solid black;
+    border-radius: 30px;
+    
+}
+.column-3 {
+    height: 33%
+}
+
+/* .third-column-1 {
+    background-color: #FFF7BD;
+    height: 100px;
+    width: 100px
+}
+.third-column-2 {
+background-color: #FFED69;
+
+
+}
+.third-column-3 {
+background-color: #FFE41F;
+
+} */
+
+.third-rows {
+    height: 100px
+}
