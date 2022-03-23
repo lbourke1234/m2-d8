@@ -6,26 +6,38 @@
 .column-1 {
   height: 400px;
   background-color: #6bb56b;
+  border: 1px solid black;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px
 }
 
 .column-2 {
   background-color: #299bff;
+  height: 400px
 }
 #first-container {
   border: 1px solid black;
   border-radius: 30px;
 }
-.column-3 {
-  height: 33%;
-}
+/* .column-3 {
+  height: 400px;
+} */
 .part-1 {
   background-color: #fff7bd;
+  height: 133px;
+  border-top-right-radius: 30px;
 }
 .part-2 {
   background-color: #ffed69;
+  height: 133px
+
 }
 .part-3 {
   background-color: #ffe41f;
+  height: 133px;
+  border-bottom-right-radius: 30px;
+
+
 }
 .card-head {
   background-color: rgb(216, 213, 213);
